@@ -1,10 +1,16 @@
+import * as React from 'react';
 
+import Menu from './components/Menu';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <>
+      <div>
+          <Menu />
+          <Body />
+      </div>
+    </>
   );
 }
 
