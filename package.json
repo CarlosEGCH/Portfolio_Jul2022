@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio_Jul2022",
+  "version": "1.0.0",
+  "description": "My portfolio :D",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosEGCH/Portfolio_Jul2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosEGCH/Portfolio_Jul2022/issues"
+  },
+  "homepage": "https://github.com/CarlosEGCH/Portfolio_Jul2022#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
