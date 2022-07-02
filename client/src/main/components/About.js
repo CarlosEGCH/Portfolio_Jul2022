@@ -40,8 +40,8 @@ export default function About(){
                                 <img src={about3} />
                             </div>
                             <div className='right-container'>
-                                <h1>Aenean egestas libero amet vulputate.</h1>
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi morbi sit consectetur elit.</h3>
+                                <h1>Quick development and quality maintenance.</h1>
+                                <h3>I'm </h3>
                             </div>
                         </div>
                     </div>

@@ -28,8 +28,8 @@ export default function Skills(){
                                 <img src={skill1} />
                             </div>
                             <div className='card-content'>
-                                <h1>Platea lectus sit.</h1>
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus ipsum viverra etiam.</h3>
+                                <h1>Web Development</h1>
+                                <h3>More than 1 year of experience creating different kinds of websites.</h3>
                             </div>
                         </div>
                         <div className='card'>
@@ -37,8 +37,8 @@ export default function Skills(){
                                 <img style={{height: '120px', transform: 'translateY(-10px)'}} src={skill2} />
                             </div>
                             <div className='card-content'>
-                                <h1>Platea lectus sit.</h1>
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus ipsum viverra etiam.</h3>
+                                <h1>Node JS</h1>
+                                <h3>I'm well versed in </h3>
                             </div>
                         </div>
                         <div className='card'>

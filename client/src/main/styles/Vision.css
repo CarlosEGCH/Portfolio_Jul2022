@@ -39,6 +39,7 @@
 
 .vision-container .cards-container .card .card-header{
     margin: 0 auto;
+    height: 80px;
 }
 .vision-container .cards-container .card .card-content{
     margin: 0 auto;

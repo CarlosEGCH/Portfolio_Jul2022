@@ -1,0 +1,33 @@
+.main-questions-container{
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.main-questions-container .questions-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    padding-bottom: 200px;
+    height: 100%;
+}
+.questions-container
+.left-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.questions-container
+.right-container{
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+
+.questions-container
+.left-container
+.questions-header h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.75);
+}
