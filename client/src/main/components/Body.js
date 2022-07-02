@@ -1,11 +1,15 @@
 import * as React from 'react';
 
+import Hero from './Hero';
+import Subhero from './Subhero';
+
 export default function Body(){
 
     return(
         <>
         <div>
-            This is the body
+            <Hero />
+            <Subhero />
         </div>
         </>
     )

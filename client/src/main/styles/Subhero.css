@@ -1,0 +1,32 @@
+.main-subhero-container{
+    height: 60vh;
+}
+.main-subhero-container .subhero-container{
+    height: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.subhero-container .left-container{
+    display: grid;
+    justify-content: end;
+    padding-left: 200px;
+    color: rgba(0,0,0,0.75);
+}
+.subhero-container .left-container h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.subhero-container .right-container .subhero-image img{
+    width: 800px;
+    height: 300px;
+    object-fit: fill;
+}
+.subhero-container .right-container .subhero-image{
+    width: 800px;
+    background-color: red;
+}
+
+.subhero-content span{
+    color: #5061C5;
+}

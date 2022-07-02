@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Button } from '@chakra-ui/react';
 
 import '../styles/Menu.css';
+import logo from '../../assets/page-logo.png';
 
 export default function Menu(){
 
@@ -11,7 +12,7 @@ export default function Menu(){
         <div className='main-container'>
             <div className='grid'>
                 <div className='logo-container'>
-                    Logo
+                    <img src={logo} />
                 </div>
                 <div className='links-container'>
                     <div className='links-flex'>
@@ -22,7 +23,7 @@ export default function Menu(){
                     </div>
                 </div>
                 <div className='button-container'>
-                    <Button colorScheme='blue'>Let's Talk!</Button>
+                    <Button className='button'>Let's Talk!</Button>
                 </div>
             </div>
         </div>
