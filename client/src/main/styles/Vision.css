@@ -1,0 +1,67 @@
+.main-vision-container{
+    height: 100vh;
+    margin: 60px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-container .vision-description h1{
+    font-size: 60px;
+    color: rgba(0,0,0,0.75);
+    font-weight: 700;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.vision-container .vision-description h3 {
+    font-size: 22px;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.vision-container .vision-description span {
+    color: #5061C5;
+}
+.vision-container .cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px auto;
+    gap: 100px;
+}
+
+.vision-container .cards-container .card{
+    display: grid;
+    grid-template-rows: 0.6fr 1fr;
+    justify-content: center;
+}
+
+.vision-container .cards-container .card .card-header{
+    margin: 0 auto;
+}
+.vision-container .cards-container .card .card-content{
+    margin: 0 auto;
+    text-align: center;
+}
+.vision-container .cards-container .card .card-content h1{
+    color: rgba(0,0,0,0.75);
+    font-size: 22px;
+    font-weight: 500;
+}
+.vision-container .cards-container .card .card-content h3 {
+    color: rgba(0,0,0,0.5);
+    width: 300px;
+}
+.vision-container .button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vision-container .button-container .button{
+    background-color: #5061C5;
+    color: white;
+}
+.vision-container .button-container .button:hover{
+    background-color: #F3D408;
+}

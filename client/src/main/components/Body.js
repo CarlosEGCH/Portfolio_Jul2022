@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import Hero from './Hero';
 import Subhero from './Subhero';
+import Vision from './Vision';
 
 export default function Body(){
 
@@ -10,6 +11,7 @@ export default function Body(){
         <div>
             <Hero />
             <Subhero />
+            <Vision />
         </div>
         </>
     )

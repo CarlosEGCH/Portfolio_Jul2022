@@ -13,18 +13,36 @@
     padding-left: 200px;
     color: rgba(0,0,0,0.75);
 }
+.subhero-container .right-container{
+    height: 100%;
+    width: 100%;
+    top: 50px;
+    position: relative;
+}
+.subhero-container .right-container .subhero-image{
+    height: 100%;
+    width: 100%;
+}
 .subhero-container .left-container h1{
     font-size: 60px;
     font-weight: 700;
 }
-.subhero-container .right-container .subhero-image img{
+
+.subhero-container .subhero-image-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
     width: 800px;
-    height: 300px;
-    object-fit: fill;
+    height: 450px;
+    left: 20px;
+    top: -20px;
+    background-color: #F3D408;
+    z-index: -100;
 }
-.subhero-container .right-container .subhero-image{
-    width: 800px;
-    background-color: red;
+
+.subhero-container .subhero-image video{
+    z-index: 500;
 }
 
 .subhero-content span{

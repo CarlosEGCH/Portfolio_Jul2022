@@ -23,7 +23,7 @@
     align-items: center;
     padding-left: 40px;
 }
-.button-container{
+.main-container .button-container{
     display: flex;
     justify-content: end;
     height: 100%;

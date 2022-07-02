@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import '../styles/Subhero.css';
 
-import gif from '../../assets/web-developer.gif';
+import video from '../../assets/coding-video.mp4';
 
 export default function Subhero(){
 
@@ -17,7 +17,10 @@ export default function Subhero(){
                 </div>
                 <div className='right-container'>
                     <div className='subhero-image'>
-                        <img src={gif} />
+                        <div className='subhero-image-shadow'></div>
+                        <video width='800px' autoPlay={true} muted loop>
+                            <source src={video} type="video/mp4"></source>
+                        </video>
                     </div>
                 </div>
             </div>
