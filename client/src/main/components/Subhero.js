@@ -17,7 +17,6 @@ export default function Subhero(){
                 </div>
                 <div className='right-container'>
                     <div className='subhero-image'>
-                        <div className='subhero-image-shadow'></div>
                         <video width='800px' autoPlay={true} muted loop>
                             <source src={video} type="video/mp4"></source>
                         </video>
