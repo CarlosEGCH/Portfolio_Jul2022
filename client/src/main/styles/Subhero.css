@@ -1,6 +1,6 @@
 .main-subhero-container{
     height: 60vh;
-    min-height: 900px;
+    min-height: 500px;
 }
 .main-subhero-container .subhero-container{
     height: 100%;
@@ -42,7 +42,7 @@
 @media (max-width: 1400px){
     .main-subhero-container .subhero-container{
         grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr;
+        grid-template-rows: 0.8fr 1fr;
     }
 
     .subhero-container .right-container .subhero-image{
@@ -55,5 +55,11 @@
     }
     .subhero-container .subhero-image video{
         min-width: 500px;
+    }
+}
+
+@media (max-width: 900px){
+    .main-subhero-container .subhero-container{
+        row-gap: 80px;
     }
 }

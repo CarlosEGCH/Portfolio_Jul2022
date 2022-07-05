@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-          { width > 900 ? <Menu /> : <MobileMenu />}
+          { width > 1100 ? <Menu /> : <MobileMenu />}
           <Body />
       </div>
     </>
