@@ -39,27 +39,28 @@
     }
     .main-hero-container .hero-container {
         grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 0px 20px;
     }
 
     .hero-container .right-container {
         display: none;
     }
 
-
-
-
     .hero-container .left-container{
         padding: 0px;
     }
     .hero-container .left-container h1,
     .hero-container .left-container h2{
+        width: 100%;
         text-align: center;
         margin: 0 auto;
     }
     .hero-container .left-container h1{
-        font-size: 50px;
+        font-size: 40px;
     }
     .hero-container .left-container h2{
+        font-size: 20px;
         padding: 20px 0px;
     }
     .hero-container .buttons-container{

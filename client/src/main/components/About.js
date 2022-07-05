@@ -18,30 +18,30 @@ export default function About(){
                 <div className='about-content'>
                     <div className='cards-container'>
                         <div className='card'>
-                            <div className='left-container'>
+                            <div className='left-container img1'>
                                 <img src={about1} />
                             </div>
-                            <div className='right-container'>
+                            <div className='right-container txt1'>
                                 <h1>Websites should look good from the inside and out.</h1>
                                 <h3>I always keep the user in mind, but mantaining my code concise and useful, providing good scalability.</h3>
                             </div>
                         </div>
                         <div className='card'>
-                            <div className='left-container'>      
+                            <div className='left-container txt2'>      
                                 <h1>I optimize user experience by adapting to your brand.</h1>
                                 <h3>I design a customer-centric website that helps visitors to navigate the site easily and take actions that produce your desired results.</h3>
                             </div>
-                            <div className='right-container'>
+                            <div className='right-container img2'>
                                 <img src={about2} />
                             </div>
                         </div>
                         <div className='card'>
-                            <div className='left-container'>
+                            <div className='left-container img3'>
                                 <img src={about3} />
                             </div>
-                            <div className='right-container'>
+                            <div className='right-container txt3'>
                                 <h1>Quick development and quality maintenance.</h1>
-                                <h3>I'm </h3>
+                                <h3>With my current experience i'm able to work quickly, keeping the quality of my projects high.</h3>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,5 @@
 .main-vision-container{
-    height: 100vh;
-    margin: 60px auto;
+    margin: 0 auto;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -65,4 +64,34 @@
 }
 .vision-container .button-container .button:hover{
     background-color: #F3D408;
+}
+@media (max-width: 1400px){
+    .main-vision-container{
+        padding: 400px 0px;
+    }
+    .vision-container .cards-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0 auto;
+        row-gap: 50px;
+    }
+    .vision-container .vision-description h1{
+        font-size: 30px;
+        width: 70%;
+    }
+    .vision-container .vision-description h3{
+        width: 60%;
+        font-size: 18px;
+    }
+     .vision-container .vision-description{
+        padding: 20px 0px;
+     }  
+     .vision-container .cards-container{
+        padding-top: 40px;
+     }
+}
+@media (max-width: 900px){
+    .main-vision-container{
+        padding: 200px 0px;
+    }
 }

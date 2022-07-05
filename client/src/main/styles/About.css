@@ -4,7 +4,8 @@
 }
 .about-container{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    padding: 200px 100px;
 }
 .about-container .about-header h1{
     text-align: center;
@@ -25,8 +26,8 @@
     gap: 40px;
 }
 .about-container .cards-container .card{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 80px;
 }
 .about-container .cards-container .card h1{
@@ -42,4 +43,45 @@
     width: 400px;
     text-align: center;
     color: rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1100px){
+    .main-about-container .about-container{
+        padding: 0 20px;
+    }
+    .main-about-container .about-container .about-header br{
+        display: none;
+    }
+    .main-about-container .about-container .about-header h1{
+        font-size: 30px;
+    }
+    .about-container .cards-container .card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        padding: 30px 0px;
+    }
+    .about-container .card .img1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .about-container .card .img3{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .about-container .card .img2{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .about-container .cards-container .card h1,
+    .about-container .cards-container .card h3{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about-container .cards-container .card h1{
+        font-size: 22px;
+    }
+    .about-container .cards-container .card h3 {
+        font-size: 16px;
+    }
 }
