@@ -3,6 +3,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    width: 90vw;
 }
 .main-questions-container .questions-container{
     display: grid;
@@ -16,6 +17,7 @@
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 .questions-container
 .right-container{
@@ -30,4 +32,22 @@
     font-size: 60px;
     font-weight: 700;
     color: rgba(0,0,0,0.75);
+    width: 100%;
+}
+@media (max-width: 900px){
+    .questions-container .left-container .questions-header{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .questions-container .left-container .questions-header h1{
+        font-size: 30px;
+    }
+    .main-questions-container .questions-container {
+        grid-template-columns: 1fr;
+        width: 100vw;
+        padding: 0px 20px 200px 20px;
+    }
+    .main-questions-container {
+        max-height: 500px;
+    }
 }

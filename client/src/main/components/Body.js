@@ -18,8 +18,8 @@ export default function Body(){
             <Vision />
             <About />
             <Skills />
-            {/*<Questions />
-    <Footer />*/}
+            <Questions />
+            <Footer />
         </div>
         </>
     )

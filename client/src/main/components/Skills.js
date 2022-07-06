@@ -38,7 +38,7 @@ export default function Skills(){
                             </div>
                             <div className='card-content'>
                                 <h1>Node JS</h1>
-                                <h3>I'm well versed in </h3>
+                                <h3>I'm well versed in server development with Javascript, as well as many different platforms.</h3>
                             </div>
                         </div>
                         <div className='card'>

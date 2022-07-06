@@ -1,0 +1,21 @@
+.main-mobile-container{
+    height: 30px;
+}
+.main-mobile-container .mobile-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px
+}
+.main-mobile-container .drawer-button{
+    grid-column-start: 4;
+}
+.main-mobile-container .mobile-logo-container{
+    width: 120px;
+}
+.main-mobile-container .mobile-grid .mobile-drawer-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: red;
+    height: 100%;
+}

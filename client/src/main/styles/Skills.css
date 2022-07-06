@@ -67,3 +67,15 @@ h3{
     width: 80%;
     margin: 0 auto;
 }
+
+@media (max-width: 1100px){
+    .skills-container .skills-content .cards-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100vw;
+        padding: 0px 20px;
+    }
+    .skills-container .skills-header {
+        font-size: 30px;
+    }
+}
