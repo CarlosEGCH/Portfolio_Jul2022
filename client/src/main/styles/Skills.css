@@ -2,7 +2,33 @@
     display: grid;
     justify-content: center;
     margin: 160px auto;
+    position: relative;
 }
+
+.main-skills-container .first-shade{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: radial-gradient(rgba(80,97,197, 0.7), transparent 70%);
+    border-radius: 50%;
+}
+
+.main-skills-container .second-shade {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-image: radial-gradient(rgba(80, 97, 197, 0.7), transparent 70%);
+    border-radius: 50%;
+}
+
+.main-skills-container .third-shade {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(rgba(80, 97, 197, 0.7), transparent 70%);
+    border-radius: 50%;
+}
+
 .skills-container .skills-header{
     font-size: 60px;
     font-weight: 700;
@@ -28,6 +54,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: rgba(184, 168, 168, 0.1);
+    backdrop-filter: blur(7.3px);
+    border-radius: 20px;
+    padding: 0px 0px 10px 0px;
 }
 .skills-container
 .skills-content

@@ -15,7 +15,7 @@ export default function Questions(){
 
     return(
         <>
-        <div className='main-questions-container'>
+        <div className='main-questions-container' id="questions">
             <div className='questions-container'>
                 <div className='left-container'>
                     <div className='questions-header'>

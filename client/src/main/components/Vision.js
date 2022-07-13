@@ -28,7 +28,7 @@ export default function Vision(){
 
     return(
         <>
-        <div className='main-vision-container'>
+        <div className='main-vision-container' id="vision">
             <div className='vision-container'>
                 <div className='vision-description'>
                     <h1>Responsiveness<span>,</span> Modernity <span>&</span> Flexibility</h1>

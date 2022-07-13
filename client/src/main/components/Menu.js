@@ -17,9 +17,9 @@ export default function Menu(){
                 <div className='links-container'>
                     <div className='links-flex'>
                         <a href="#">Home</a>
-                        <a href="#">About Me</a>
-                        <a href="#">My Work</a>
-                        <a href="#">Contact</a>
+                        <a href="#vision">Vision</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#questions">Questions</a>
                     </div>
                 </div>
                 <div className='button-container'>

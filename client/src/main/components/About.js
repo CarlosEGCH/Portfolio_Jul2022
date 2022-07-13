@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { motion, useTransform, useViewportScroll } from "framer-motion";
+
+import { motion } from 'framer-motion';
 
 import '../styles/About.css';
 
@@ -8,12 +9,6 @@ import about2 from '../../assets/about2.png';
 import about3 from '../../assets/about3.png';
 
 export default function About(){
-
-    const { scrollY } = useViewportScroll();
-    const y1 = useTransform(scrollY, [1900, 2200], [90, 0]);
-    const y2 = useTransform(scrollY, [2300, 2600], [90, 0]);
-    const y3 = useTransform(scrollY, [2700, 3000], [90, 0]);
-
 
     return(
         <>
@@ -24,7 +19,7 @@ export default function About(){
                 </div>
                 <div className='about-content'>
                     <div className='cards-container'>
-                        <motion.div className='card' style={{rotateY: y1, originX: 0}}>
+                        <motion.div className='card' initial={{opacity: 0}} whileInView={{opacity: 1}}>
                             <div className='left-container img1'>
                                 <img src={about1} />
                             </div>
@@ -33,7 +28,7 @@ export default function About(){
                                 <h3>I always keep the user in mind, but mantaining my code concise and useful, providing good scalability.</h3>
                             </div>
                         </motion.div>
-                        <motion.div className='card' style={{rotateY: y2, originX: 0}}>
+                        <motion.div className='card' initial={{opacity: 0}} whileInView={{opacity: 1}}>
                             <div className='left-container txt2'>      
                                 <h1>I optimize user experience by adapting to your brand.</h1>
                                 <h3>I design a customer-centric website that helps visitors to navigate the site easily and take actions that produce your desired results.</h3>
@@ -42,7 +37,7 @@ export default function About(){
                                 <img src={about2} />
                             </div>
                         </motion.div>
-                        <motion.div className='card' style={{rotateY: y3, originX: 0}}>
+                        <motion.div className='card' initial={{opacity: 0}} whileInView={{opacity: 1}}>
                             <div className='left-container img3'>
                                 <img src={about3} />
                             </div>
